@@ -16,7 +16,10 @@
     "configuration-policy"
   ],
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "@webwaka/organelle-governance-registry": "workspace:*",
+    "@webwaka/organelle-policy-definition": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^5.0.0",
     "jest": "^29.0.0",
